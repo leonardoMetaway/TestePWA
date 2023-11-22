@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.9",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "nuxt": "^3.6.5",
+    "sass": "^1.64.2"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.5",
+    "lodash-es": "^4.17.21",
+    "nuxt-quasar-ui": "^2.0.5",
+    "quasar": "^2.12.4"
+  }
+}

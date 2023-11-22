@@ -1,0 +1,20 @@
+.d-flex
+  display: flex
+.flex-column
+  flex-direction: column
+.justify-start
+  justify-content: start
+
+body
+  &.body
+    &--dark
+      .q-field--standout input, .q-field__append, .q-placeholder, .q-field__native
+        color: white !important
+      .q-field--standout .q-field__control
+        background: #464646a3 !important
+    &--light
+      .q-field--standout input, .q-field__append, .q-placeholder, .q-field__native
+        color: black !important
+      .q-field--standout .q-field__control
+        background: #e7e7e7a3 !important
+  
